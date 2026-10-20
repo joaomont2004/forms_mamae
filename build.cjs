@@ -11,3 +11,5 @@ console.log('Página e imagem de prévia preparadas.');
 
 fs.copyFileSync('previa-convite-v2.jpg', 'dist/previa-convite-v2.jpg');
 fs.copyFileSync('dist/index.html', 'dist/convite-v2.html');
+
+fs.copyFileSync('dist/index.html', 'dist/convite-v3.html');
