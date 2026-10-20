@@ -1,0 +1,27 @@
+CONVITE PRONTO PARA A VERCEL
+
+O convite inteiro e o botão abrem o formulário original de confirmação.
+A imagem da prévia é a arte original do PDF.
+
+COMO PUBLICAR
+1. Extraia a pasta do ZIP.
+2. Se usar o painel da Vercel, envie os arquivos para um repositório no GitHub e importe esse repositório em Add New > Project na Vercel.
+3. Framework Preset: Other. Build Command: npm run build. Output Directory: dist.
+4. Clique em Deploy e compartilhe o endereço de produção.
+
+Alternativa, se já tem Node.js instalado: abra um terminal nesta pasta e execute npx vercel --prod. Entre na conta e siga as instruções.
+
+O painel da Vercel não funciona como o envio de uma pasta por arrastar e soltar do Netlify.
+
+PRÉVIA NO WHATSAPP
+Cole o endereço de produção em uma conversa com você mesma e espere a prévia carregar antes de enviar.
+Ao tocar na prévia, abre-se a página do convite. Ao tocar no convite ou botão, abre-se o formulário.
+O formato e a disponibilidade da prévia dependem do WhatsApp; não é possível garantir uma imagem grande ou inteira.
+Se o endereço pedir login, confira Deployment Protection na Vercel: a página e a imagem precisam estar acessíveis publicamente.
+
+ENDEREÇO AUTOMÁTICO
+O build usa VERCEL_PROJECT_PRODUCTION_URL ou VERCEL_URL para gerar as tags de prévia com endereços absolutos.
+Se necessário, habilite Automatically expose System Environment Variables nas configurações do projeto e publique novamente.
+Para usar um domínio específico, defina SITE_URL com o endereço completo e publique novamente.
+
+Não é necessário editar o link do formulário nem a imagem.

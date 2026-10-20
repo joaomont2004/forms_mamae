@@ -1,0 +1,6 @@
+{
+  "name": "convite-cha-cooperadoras",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": { "build": "node build.cjs" }
+}
