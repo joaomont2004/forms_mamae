@@ -8,3 +8,6 @@ const html = fs.readFileSync('index.html', 'utf8').replaceAll('__SITE_URL__', ur
 fs.writeFileSync('dist/index.html', html);
 fs.copyFileSync('convite.jpg', 'dist/convite.jpg');
 console.log('Página e imagem de prévia preparadas.');
+
+fs.copyFileSync('previa-convite-v2.jpg', 'dist/previa-convite-v2.jpg');
+fs.copyFileSync('dist/index.html', 'dist/convite-v2.html');
